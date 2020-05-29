@@ -61,7 +61,7 @@ export default {
   methods: {
     listRate () {
       this.axios
-        .get('https://r.easycrypto.nz/json/backenddb.json')
+        .get('')
         .then(async res => {
           Object.values(res.data).forEach(value => {
             value.rate = value.rate.toFixed(5)
