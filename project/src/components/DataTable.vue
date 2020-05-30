@@ -100,6 +100,7 @@ export default {
   },
   methods: {
     listRate () {
+    // add the url before test. The url was removed due of security
       this.axios
         .get('')
         .then(async res => {
