@@ -104,7 +104,7 @@ export default {
     listRate () {
     // add the url before test. The url was removed due of security
       this.axios
-        .get('https://r.easycrypto.nz/json/backenddb.json')
+        .get('')
         .then(async res => {
           Object.values(res.data).forEach(value => {
             value.rate = value.rate.toFixed(5)
