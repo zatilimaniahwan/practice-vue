@@ -5,9 +5,6 @@ import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-
-
-
 Vue.use(Router)
 Vue.use(Buefy)
 
